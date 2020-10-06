@@ -29,11 +29,11 @@ public class Server
         }
         catch (IOException e)
         {
-            System.out.println("Could not create server socket"); 
+            System.out.println("Cant create server socket"); 
             System.exit(-1);
         }
         
-        System.out.println("FTP Server started listening on port " + controlPort);
+        System.out.println("FTP Server started listening on port : " + controlPort);
 
         int noOfThreads = 0;
         
